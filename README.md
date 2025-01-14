@@ -2,6 +2,8 @@
 
 # Why use Bois as a serializer?
 
+https://github.com/salarcode/Bois 
+
 1. Because it's fast and it's compact.
 2. Because it has a native compression library (well, Lz4 at least)
 3. Because if you use this to store your state, it's easy to deserialize outside of Orleans if you need to
@@ -16,7 +18,7 @@ REF: https://stackoverflow.com/questions/37614410/comparison-between-lz4-vs-lz4-
 
 # Anything to watch out for?
 
-Yes, changing your class structure is not really supported
+Yep, changing your class structure is not really supported
 
 
 # STARTUP in services:
